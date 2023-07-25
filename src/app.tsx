@@ -6,7 +6,7 @@ interface Button {
   file: string
 }
 
-const SRC_SOUNDS = 'src/sounds/'
+const SRC_SOUNDS = 'sounds/'
 const SOUND_FORMAT = 'ogg'
 
 function slugify(str: string): string {
