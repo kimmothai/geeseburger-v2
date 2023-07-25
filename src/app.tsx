@@ -7,7 +7,7 @@ interface Button {
 }
 
 const SRC_SOUNDS = 'src/sounds/'
-const SOUND_FORMAT = 'mp3'
+const SOUND_FORMAT = 'ogg'
 
 function slugify(str: string): string {
   return str.trim().replace(' ', '-').toLowerCase()
